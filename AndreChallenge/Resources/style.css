@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Sofia Pro";
+    font-weight: normal;
+    src: url(SofiaProMedium.ttf);
+}
+
+@font-face {
+    font-family: "Sofia Pro";
+    font-weight: bold;
+    src: url(SofiaProSemiBold.ttf);
+}
+
+* {
+    margin-left: 12px;
+    margin-right: 12px;
+    font-family: "Sofia Pro", sans-serif;
+    color: #4B4B4B;
+}
+
+body {
+    font-size: 28px;
+}

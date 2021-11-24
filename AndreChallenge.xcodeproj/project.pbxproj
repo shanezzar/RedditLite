@@ -8,12 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		5139A2E5274E4CA7009A9C83 /* AndreChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5139A2E4274E4CA7009A9C83 /* AndreChallengeApp.swift */; };
-		5139A2E7274E4CA7009A9C83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5139A2E6274E4CA7009A9C83 /* ContentView.swift */; };
+		5139A2E7274E4CA7009A9C83 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5139A2E6274E4CA7009A9C83 /* MainView.swift */; };
 		5139A2E9274E4CA8009A9C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5139A2E8274E4CA8009A9C83 /* Assets.xcassets */; };
 		5139A2EC274E4CA8009A9C83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5139A2EB274E4CA8009A9C83 /* Preview Assets.xcassets */; };
 		5139A2F6274E4CA8009A9C83 /* AndreChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5139A2F5274E4CA8009A9C83 /* AndreChallengeTests.swift */; };
 		5139A300274E4CA8009A9C83 /* AndreChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5139A2FF274E4CA8009A9C83 /* AndreChallengeUITests.swift */; };
 		5139A302274E4CA8009A9C83 /* AndreChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5139A301274E4CA8009A9C83 /* AndreChallengeUITestsLaunchTests.swift */; };
+		5139A310274E4CD1009A9C83 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5139A30F274E4CD1009A9C83 /* NetworkModel.swift */; };
+		5139A313274E4E84009A9C83 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5139A312274E4E84009A9C83 /* Alamofire */; };
+		5139A316274E509E009A9C83 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 5139A315274E509E009A9C83 /* SwiftyJSON */; };
+		5139A329274E6354009A9C83 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5139A328274E6354009A9C83 /* Extension.swift */; };
+		51BEB8AF274E79D30000730E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BEB8AE274E79D30000730E /* Launch Screen.storyboard */; };
+		51BEB8B4274E8D180000730E /* Reddit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEB8B3274E8D180000730E /* Reddit.swift */; };
+		51BEB8B6274E8D3D0000730E /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEB8B5274E8D3D0000730E /* CustomFont.swift */; };
+		51BEB8BC274E8E3A0000730E /* SofiaProSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51BEB8B9274E8E390000730E /* SofiaProSemiBold.ttf */; };
+		51BEB8BD274E8E3A0000730E /* SofiaProLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51BEB8BA274E8E3A0000730E /* SofiaProLight.ttf */; };
+		51BEB8BE274E8E3A0000730E /* SofiaProMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51BEB8BB274E8E3A0000730E /* SofiaProMedium.ttf */; };
+		51BEB8C1274EC1990000730E /* RedditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEB8C0274EC1990000730E /* RedditView.swift */; };
+		51BEB8C3274EC23D0000730E /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEB8C2274EC23D0000730E /* PlaceholderView.swift */; };
+		51BEB8C6274EC3AB0000730E /* PlaceholderViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEB8C5274EC3AB0000730E /* PlaceholderViewType.swift */; };
+		51BEB8C9274ECDB30000730E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEB8C8274ECDB30000730E /* WebView.swift */; };
+		51BEB8CE274ECDEE0000730E /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 51BEB8CB274ECDEE0000730E /* style.css */; };
+		51BEB8CF274ECDEE0000730E /* style-dark.css in Resources */ = {isa = PBXBuildFile; fileRef = 51BEB8CC274ECDEE0000730E /* style-dark.css */; };
+		51BEB8D0274ECDEE0000730E /* refresh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51BEB8CD274ECDEE0000730E /* refresh.wav */; };
+		51BEB8D2274ECE0E0000730E /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEB8D1274ECE0E0000730E /* SoundModel.swift */; };
+		51BEB8D4274ECFB30000730E /* DetailsWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEB8D3274ECFB30000730E /* DetailsWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +55,7 @@
 /* Begin PBXFileReference section */
 		5139A2E1274E4CA7009A9C83 /* AndreChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndreChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5139A2E4274E4CA7009A9C83 /* AndreChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndreChallengeApp.swift; sourceTree = "<group>"; };
-		5139A2E6274E4CA7009A9C83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5139A2E6274E4CA7009A9C83 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5139A2E8274E4CA8009A9C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5139A2EB274E4CA8009A9C83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5139A2F1274E4CA8009A9C83 /* AndreChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndreChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +63,24 @@
 		5139A2FB274E4CA8009A9C83 /* AndreChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndreChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5139A2FF274E4CA8009A9C83 /* AndreChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndreChallengeUITests.swift; sourceTree = "<group>"; };
 		5139A301274E4CA8009A9C83 /* AndreChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndreChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5139A30F274E4CD1009A9C83 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		5139A328274E6354009A9C83 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		5139A32A274E73D1009A9C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		51BEB8AE274E79D30000730E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		51BEB8B3274E8D180000730E /* Reddit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reddit.swift; sourceTree = "<group>"; };
+		51BEB8B5274E8D3D0000730E /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		51BEB8B9274E8E390000730E /* SofiaProSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SofiaProSemiBold.ttf; sourceTree = "<group>"; };
+		51BEB8BA274E8E3A0000730E /* SofiaProLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SofiaProLight.ttf; sourceTree = "<group>"; };
+		51BEB8BB274E8E3A0000730E /* SofiaProMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SofiaProMedium.ttf; sourceTree = "<group>"; };
+		51BEB8C0274EC1990000730E /* RedditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditView.swift; sourceTree = "<group>"; };
+		51BEB8C2274EC23D0000730E /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		51BEB8C5274EC3AB0000730E /* PlaceholderViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewType.swift; sourceTree = "<group>"; };
+		51BEB8C8274ECDB30000730E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		51BEB8CB274ECDEE0000730E /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		51BEB8CC274ECDEE0000730E /* style-dark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "style-dark.css"; sourceTree = "<group>"; };
+		51BEB8CD274ECDEE0000730E /* refresh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = refresh.wav; sourceTree = "<group>"; };
+		51BEB8D1274ECE0E0000730E /* SoundModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundModel.swift; sourceTree = "<group>"; };
+		51BEB8D3274ECFB30000730E /* DetailsWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5139A316274E509E009A9C83 /* SwiftyJSON in Frameworks */,
+				5139A313274E4E84009A9C83 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +133,17 @@
 		5139A2E3274E4CA7009A9C83 /* AndreChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				5139A2E4274E4CA7009A9C83 /* AndreChallengeApp.swift */,
-				5139A2E6274E4CA7009A9C83 /* ContentView.swift */,
+				5139A32A274E73D1009A9C83 /* Info.plist */,
 				5139A2E8274E4CA8009A9C83 /* Assets.xcassets */,
+				51BEB8AE274E79D30000730E /* Launch Screen.storyboard */,
+				5139A2E4274E4CA7009A9C83 /* AndreChallengeApp.swift */,
+				51BEB8CA274ECDC80000730E /* Resources */,
+				51BEB8B1274E8CF90000730E /* Fonts */,
+				51BEB8C4274EC3940000730E /* Enums */,
+				51BEB8B2274E8D070000730E /* Structs */,
+				5139A327274E6347009A9C83 /* Extension */,
+				5139A30E274E4CBA009A9C83 /* Models */,
+				51BEB8B0274E89150000730E /* Views */,
 				5139A2EA274E4CA8009A9C83 /* Preview Content */,
 			);
 			path = AndreChallenge;
@@ -127,6 +174,88 @@
 			path = AndreChallengeUITests;
 			sourceTree = "<group>";
 		};
+		5139A30E274E4CBA009A9C83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5139A30F274E4CD1009A9C83 /* NetworkModel.swift */,
+				51BEB8D1274ECE0E0000730E /* SoundModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5139A327274E6347009A9C83 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5139A328274E6354009A9C83 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		51BEB8B0274E89150000730E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51BEB8C7274ECDA10000730E /* CustomViews */,
+				51BEB8BF274EC17C0000730E /* SubViews */,
+				5139A2E6274E4CA7009A9C83 /* MainView.swift */,
+				51BEB8D3274ECFB30000730E /* DetailsWebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		51BEB8B1274E8CF90000730E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				51BEB8BA274E8E3A0000730E /* SofiaProLight.ttf */,
+				51BEB8BB274E8E3A0000730E /* SofiaProMedium.ttf */,
+				51BEB8B9274E8E390000730E /* SofiaProSemiBold.ttf */,
+				51BEB8B5274E8D3D0000730E /* CustomFont.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		51BEB8B2274E8D070000730E /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				51BEB8B3274E8D180000730E /* Reddit.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		51BEB8BF274EC17C0000730E /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				51BEB8C0274EC1990000730E /* RedditView.swift */,
+				51BEB8C2274EC23D0000730E /* PlaceholderView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		51BEB8C4274EC3940000730E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				51BEB8C5274EC3AB0000730E /* PlaceholderViewType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		51BEB8C7274ECDA10000730E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				51BEB8C8274ECDB30000730E /* WebView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		51BEB8CA274ECDC80000730E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51BEB8CD274ECDEE0000730E /* refresh.wav */,
+				51BEB8CC274ECDEE0000730E /* style-dark.css */,
+				51BEB8CB274ECDEE0000730E /* style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +272,10 @@
 			dependencies = (
 			);
 			name = AndreChallenge;
+			packageProductDependencies = (
+				5139A312274E4E84009A9C83 /* Alamofire */,
+				5139A315274E509E009A9C83 /* SwiftyJSON */,
+			);
 			productName = AndreChallenge;
 			productReference = 5139A2E1274E4CA7009A9C83 /* AndreChallenge.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +348,10 @@
 				Base,
 			);
 			mainGroup = 5139A2D8274E4CA7009A9C83;
+			packageReferences = (
+				5139A311274E4E84009A9C83 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				5139A314274E509E009A9C83 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 5139A2E2274E4CA7009A9C83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +368,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BEB8BE274E8E3A0000730E /* SofiaProMedium.ttf in Resources */,
+				51BEB8D0274ECDEE0000730E /* refresh.wav in Resources */,
+				51BEB8AF274E79D30000730E /* Launch Screen.storyboard in Resources */,
+				51BEB8CE274ECDEE0000730E /* style.css in Resources */,
 				5139A2EC274E4CA8009A9C83 /* Preview Assets.xcassets in Resources */,
+				51BEB8BD274E8E3A0000730E /* SofiaProLight.ttf in Resources */,
+				51BEB8CF274ECDEE0000730E /* style-dark.css in Resources */,
+				51BEB8BC274E8E3A0000730E /* SofiaProSemiBold.ttf in Resources */,
 				5139A2E9274E4CA8009A9C83 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +401,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5139A2E7274E4CA7009A9C83 /* ContentView.swift in Sources */,
+				51BEB8B4274E8D180000730E /* Reddit.swift in Sources */,
+				51BEB8C9274ECDB30000730E /* WebView.swift in Sources */,
+				5139A310274E4CD1009A9C83 /* NetworkModel.swift in Sources */,
+				51BEB8D2274ECE0E0000730E /* SoundModel.swift in Sources */,
+				51BEB8C6274EC3AB0000730E /* PlaceholderViewType.swift in Sources */,
+				5139A2E7274E4CA7009A9C83 /* MainView.swift in Sources */,
+				51BEB8B6274E8D3D0000730E /* CustomFont.swift in Sources */,
 				5139A2E5274E4CA7009A9C83 /* AndreChallengeApp.swift in Sources */,
+				5139A329274E6354009A9C83 /* Extension.swift in Sources */,
+				51BEB8C3274EC23D0000730E /* PlaceholderView.swift in Sources */,
+				51BEB8D4274ECFB30000730E /* DetailsWebView.swift in Sources */,
+				51BEB8C1274EC1990000730E /* RedditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,15 +570,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AndreChallenge/Preview Content\"";
 				DEVELOPMENT_TEAM = R6Z6GSRQNX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AndreChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -436,7 +592,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -445,15 +601,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AndreChallenge/Preview Content\"";
 				DEVELOPMENT_TEAM = R6Z6GSRQNX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AndreChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -465,7 +623,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -605,6 +763,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5139A311274E4E84009A9C83 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		5139A314274E509E009A9C83 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5139A312274E4E84009A9C83 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5139A311274E4E84009A9C83 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5139A315274E509E009A9C83 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5139A314274E509E009A9C83 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5139A2D9274E4CA7009A9C83 /* Project object */;
 }

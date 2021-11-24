@@ -9,6 +9,7 @@ import XCTest
 
 class AndreChallengeUITestsLaunchTests: XCTestCase {
 
+    // MARK:- functions
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
