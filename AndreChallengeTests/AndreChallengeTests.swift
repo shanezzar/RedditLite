@@ -23,7 +23,7 @@ class AndreChallengeTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         cancellables.removeAll()
     }
-//
+
 //    func test_NetworkModel_reddits_shouldBeEmpty() {
 //        // Given
 //        let networkModel = NetworkModel.shared
@@ -36,7 +36,7 @@ class AndreChallengeTests: XCTestCase {
 //        XCTAssertEqual(reddits.count, 0)
 //        XCTAssertLessThan(reddits.count, 1)
 //    }
-//
+
     func test_NetworkModel_fetchData_shouldReturnItems() {
         // Given
         let networkModel = NetworkModel.shared
