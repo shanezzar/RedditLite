@@ -36,7 +36,7 @@ class AndreChallengeTests: XCTestCase {
 //        XCTAssertEqual(reddits.count, 0)
 //        XCTAssertLessThan(reddits.count, 1)
 //    }
-//
+
     func test_NetworkModel_fetchData_shouldReturnItems() {
         // Given
         let networkModel = NetworkModel.shared
