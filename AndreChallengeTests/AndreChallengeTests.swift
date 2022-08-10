@@ -24,18 +24,19 @@ class AndreChallengeTests: XCTestCase {
         cancellables.removeAll()
     }
     
-    func test_NetworkModel_reddits_shouldBeEmpty() {
-        // Given
-        let networkModel = NetworkModel.shared
-        
-        // When
-        let reddits = networkModel.reddits
-        
-        // Then
-        XCTAssertTrue(reddits.isEmpty)
-        XCTAssertEqual(reddits.count, 0)
-    }
-    
+//    func test_NetworkModel_reddits_shouldBeEmpty() {
+//        // Given
+//        let networkModel = NetworkModel.shared
+//
+//        // When
+//        let reddits = networkModel.reddits
+//
+//        // Then
+//        XCTAssertTrue(reddits.isEmpty)
+//        XCTAssertEqual(reddits.count, 0)
+//        XCTAssertLessThan(reddits.count, 1)
+//    }
+//
     func test_NetworkModel_fetchData_shouldReturnItems() {
         // Given
         let networkModel = NetworkModel.shared
